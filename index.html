@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>shir-claude</title>
+  <meta name="description" content="shir-claude is a personal OAuth app that connects Claude Code to the developer's own Gmail and Google Drive.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">shir-claude</a>
+    <nav>
+      <a href="./" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>shir-claude</h1>
+    <p class="lead">A personal OAuth app that lets Claude Code work with the developer's own Gmail and Google Drive.</p>
+
+    <h2>What it is</h2>
+    <p>
+      shir-claude is a private, single-user Google OAuth client. It authorizes locally running
+      <a href="https://github.com/anthropics/claude-code">Claude Code</a> tools (MCP servers) on the
+      developer's own computer to access the developer's own Google account. It is not a public service,
+      it is not offered to other users, and it has no servers of its own.
+    </p>
+
+    <h2>What it does</h2>
+    <ul>
+      <li><strong>Gmail:</strong> search and read messages, create draft replies, send email when explicitly asked, and manage labels and basic mail settings.</li>
+      <li><strong>Google Drive:</strong> find, read, create and update files when explicitly asked.</li>
+    </ul>
+    <p>All actions happen only in response to the developer's own requests in Claude Code.</p>
+
+    <div class="card">
+      <strong>Your data</strong><br>
+      OAuth tokens are stored only on the developer's computer. Google data is never sold, never used for
+      advertising, and never shared except as described in the <a href="privacy.html">Privacy Policy</a>.
+    </div>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this app can be sent through
+      <a href="https://github.com/shirgamzo1/shirgamzo1.github.io/issues">GitHub Issues</a>
+      or the developer's <a href="https://github.com/shirgamzo1">GitHub profile</a>.
+    </p>
+  </main>
+
+  <footer>
+    shir-claude is an independent personal project. It is not affiliated with or endorsed by Google or Anthropic.
+    · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
